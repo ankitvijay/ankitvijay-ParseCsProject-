@@ -1,7 +1,9 @@
 # ankitvijay-ParseCsProject
+
 ParseCsProject is a command line utility to parse a collection of CS Projects (.csproj files) and change settings like FxCop, adding custom dictionary etc in one go.
 
 How to Use
+
 ParseCsProject accepts following arguments.
 
 FilePath - This is a mandatory argument. You need to pass the absolute or relative path for text file where list of projects exists. 
