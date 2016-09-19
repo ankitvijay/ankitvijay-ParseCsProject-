@@ -51,4 +51,5 @@ FilePath - This is a mandatory argument. You need to pass the absolute or relati
     
 Full Example:
 
-ParseCsProject "C:\ProjectFiles\namespace.txt" /c="Debug,Release" /p="AnyCPU" /twe="true" /rca="false" /fr="..\\..\\myruleset.ruleset" /dl="en-GB" /cd="..\\..\\CustomDictionary.xml"
+
+    ParseCsProject "C:\ProjectFiles\namespace.txt" /c="Debug,Release" /p="AnyCPU" /twe="true" /rca="false" /fr="..\\..\\myruleset.ruleset" /dl="en-GB" /cd="..\\..\\CustomDictionary.xml"
