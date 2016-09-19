@@ -33,7 +33,7 @@ FilePath - This is a mandatory argument. You need to pass the absolute or relati
     
 [/Fr] or [/FxCopRuleSet] - Set the code analyis ruleset. Provide the ruleset relative path.
     
-    Example: /fr="..\\..\\myruleset.ruleset"
+    Example: /fr="..\..\myruleset.ruleset"
     Default Value: NA
     
     
@@ -45,11 +45,11 @@ FilePath - This is a mandatory argument. You need to pass the absolute or relati
     
 [/cd] or [/CustomDictionary] - Adds code analysis dictionary as link to the project. Provide the file relative path.
     
-    Example: /cd="..\\..\\CustomDictionary.xml"
+    Example: /cd="..\..\CustomDictionary.xml"
     Default Value: en-US
 
     
 Full Example:
 
 
-    ParseCsProject "C:\ProjectFiles\namespace.txt" /c="Debug,Release" /p="AnyCPU" /twe="true" /rca="false" /fr="..\\..\\myruleset.ruleset" /dl="en-GB" /cd="..\\..\\CustomDictionary.xml"
+    ParseCsProject "C:\ProjectFiles\namespace.txt" /c="Debug,Release" /p="AnyCPU" /twe="true" /rca="false" /fr="..\..\myruleset.ruleset" /dl="en-GB" /cd="..\..\CustomDictionary.xml"
