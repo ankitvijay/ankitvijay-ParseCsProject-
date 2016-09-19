@@ -98,7 +98,7 @@
             if (!(commands.TryGetValue("/P", out platform) ||
                   commands.TryGetValue("/PLATFORM", out platform)))
             {
-                throw new InvalidOperationException();
+                platform = "AnyCPU";
             }
 
             return platform;
@@ -110,7 +110,7 @@
             if (!(commands.TryGetValue("/C", out configurations) ||
                   commands.TryGetValue("/CONFIGURATION", out configurations)))
             {
-                throw new InvalidOperationException();
+                configurations = "Debug";
             }
 
             return configurations.Split(',').Select(e => e.Trim()).ToList();
